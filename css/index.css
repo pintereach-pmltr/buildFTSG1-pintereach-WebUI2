@@ -209,10 +209,11 @@ header .dropdown-menu .hidden {
 }
 .cta h2 {
   color: #2B2D42;
-  margin-top: 1.5em;
+  margin-top: 1.2em;
   margin-bottom: 0.5em;
-  font-family: rubik mono one;
-  font-size: 2.5rem;
+  font-family: rubik;
+  font-weight: bold;
+  font-size: 3rem;
 }
 @media (max-width: 500px) {
   .cta h2 {
