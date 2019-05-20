@@ -131,6 +131,7 @@ table {
 }
 header {
   width: 100%;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,6 +139,7 @@ header {
 }
 header .logo {
   display: flex;
+  margin-left: 0.25em;
   align-items: center;
 }
 header .logo .fa-bookmark {
@@ -145,14 +147,17 @@ header .logo .fa-bookmark {
 }
 header .logo h1 {
   color: #2B2D42;
+  font-size: 2rem;
+  font-family: rubik mono one;
 }
 header .dropdown-menu {
   position: relative;
+  margin-right: 0.25em;
 }
 header .dropdown-menu .dropdown-button {
   padding: 15px;
-  border: 3px solid #EDF2F4;
-  color: #EDF2F4;
+  border: 3px solid #2B2D42;
+  color: #2B2D42;
   font-size: 1.5rem;
   cursor: pointer;
   font-family: rubik mono one;
@@ -170,4 +175,40 @@ header .dropdown-menu .dropdown-content {
   flex-direction: column;
   align-items: center;
   border: 2px solid #2B2D42;
+}
+header .dropdown-menu .dropdown-link {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #EDF2F4;
+}
+header .dropdown-menu .dropdown-link:hover {
+  color: #8D99AE;
+}
+header .dropdown-menu .hidden {
+  display: none;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8D99AE;
+}
+.cta h2 {
+  color: #2B2D42;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-family: rubik mono one;
+  font-size: 2.5rem;
+}
+.cta .fa-laptop {
+  margin-bottom: 0.25em;
+}
+.middle-image {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
