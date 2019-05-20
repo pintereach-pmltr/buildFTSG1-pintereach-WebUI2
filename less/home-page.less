@@ -1,0 +1,250 @@
+.cta {
+    border-top: 3px solid @text-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8D99AE;
+
+    h2 {
+        color: @primary-color;
+        margin-top: 1.5em;
+        margin-bottom: .5em;
+        font-family: rubik mono one;
+        font-size: 2.5rem;
+
+        @media @phone {
+            text-align: center;
+        }
+    }
+
+    .fa-laptop {
+        margin-bottom: .25em;
+        color: @primary-color;
+    }
+
+    button {
+        font-family: rubik;
+        font-size: 1.5rem;
+        color: @primary-color;
+        background-color: @text-color;
+        border: 3px solid @primary-color;
+        padding: 5 15px;
+        border-radius: 10px;
+        margin-bottom: .5em;
+        cursor: pointer;
+
+        &:hover {
+            color: @highlight-color;
+        }
+
+        &:focus {
+            outline: 0;
+        }
+    }
+}
+
+.content {
+    border-top: 3px solid @highlight-color;
+    background-color: @text-color;
+    .content1 {
+        display: flex;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+
+        @media @phone {
+            flex-direction: column;
+        }
+
+        .content1-info {
+            margin-top: 1.5em;
+            h2 {
+                font-size: 1.75rem;
+                color: @highlight-color;
+                margin-bottom:.25em;
+                text-decoration: underline;
+                font-family: rubik mono one;
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+
+            p {
+                color: @primary-color;
+                font-size: 1.1rem;
+                font-family: rubik;
+
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+        }
+
+        .fa-desktop {
+            color: @primary-color;
+            margin-top: .25em;
+        }
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+
+        @media @phone {
+            flex-direction: column;
+        }
+
+        .content2-info {
+            margin-top: 1.5em;
+            h2 {
+                font-size: 1.75rem;
+                color: @highlight-color;
+                margin-bottom:.25em;
+                text-decoration: underline;
+                font-family: rubik mono one;
+                text-align: right;
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+
+            p {
+                color: @primary-color;
+                font-size: 1.1rem;
+                font-family: rubik;
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+        }
+
+        .fa-clock-o {
+            color: @primary-color;
+            margin-top: .4em;
+            margin-right: .5em;
+
+            @media @phone {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .content3 {
+        display: flex;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+
+        @media @phone {
+            flex-direction: column;
+        }
+
+        .content3-info {
+            margin-top: 1.5em;
+            h2 {
+                font-size: 1.75rem;
+                color: @highlight-color;
+                margin-bottom:.25em;
+                text-decoration: underline;
+                font-family: rubik mono one;
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+
+            p {
+                color: @primary-color;
+                font-size: 1.1rem;
+                font-family: rubik;
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+        }
+
+        .fa-folder-open {
+            color: @primary-color;
+            margin-top: .4em;
+        }
+    }
+
+    .content4 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+
+        @media @phone {
+            flex-direction: column;
+        }
+
+        .content4-info {
+            margin-top: 1.5em;
+            margin-bottom: 3em;
+
+            @media @phone {
+                margin-bottom: 2.6em;
+            }
+            h2 {
+                font-size: 1.75rem;
+                color: @highlight-color;
+                margin-bottom:.25em;
+                text-decoration: underline;
+                font-family: rubik mono one;
+                text-align: right;
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+
+            p {
+                color: @primary-color;
+                font-size: 1.1rem;
+                font-family: rubik;
+
+                @media @phone {
+                    text-align: center;
+                }
+            }
+        }
+
+        .fa-book {
+            color: @primary-color;
+            margin-top: .4em;
+            margin-right: .5em;
+            margin-bottom: .5em;
+
+            @media @phone {
+                margin-right: 0;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+footer {
+    padding: 15 0px;
+    background-color: @highlight-color;
+    border-top: 3px solid @primary-color;
+
+    p {
+        text-align: center;
+        color: @text-color;
+        font-family: rubik;
+    }
+}
