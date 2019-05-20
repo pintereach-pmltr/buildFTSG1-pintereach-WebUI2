@@ -205,6 +205,21 @@ header .dropdown-menu .hidden {
 }
 .cta .fa-laptop {
   margin-bottom: 0.25em;
+  color: #2B2D42;
+}
+.cta button {
+  font-family: rubik;
+  font-size: 1.5rem;
+  color: #2B2D42;
+  background-color: #EDF2F4;
+  border: 3px solid #2B2D42;
+  padding: 5 15px;
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.cta button:hover {
+  color: #EF233C;
 }
 .middle-image {
   width: 90%;
