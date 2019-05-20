@@ -128,6 +128,7 @@ table {
 }
 * {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 header {
   width: 100%;
@@ -221,9 +222,117 @@ header .dropdown-menu .hidden {
 .cta button:hover {
   color: #EF233C;
 }
-.middle-image {
-  width: 90%;
-  display: block;
-  margin-left: auto;
+.content {
+  background-color: #EDF2F4;
+}
+.content .content1 {
+  display: flex;
+  width: 85%;
   margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+.content .content1 .content1-info {
+  margin-top: 1.5em;
+}
+.content .content1 .content1-info h2 {
+  font-size: 1.75rem;
+  color: #EF233C;
+  margin-bottom: 0.25em;
+  text-decoration: underline;
+  font-family: rubik mono one;
+}
+.content .content1 .content1-info p {
+  color: #2B2D42;
+  font-size: 1.1rem;
+  font-family: rubik;
+}
+.content .content1 .fa-desktop {
+  color: #EF233C;
+  margin-top: 0.25em;
+}
+.content .content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+.content .content2 .content2-info {
+  margin-top: 1.5em;
+}
+.content .content2 .content2-info h2 {
+  font-size: 1.75rem;
+  color: #EF233C;
+  margin-bottom: 0.25em;
+  text-decoration: underline;
+  font-family: rubik mono one;
+  text-align: right;
+}
+.content .content2 .content2-info p {
+  color: #2B2D42;
+  font-size: 1.1rem;
+  font-family: rubik;
+}
+.content .content2 .fa-clock-o {
+  color: #EF233C;
+  margin-top: 0.4em;
+  margin-right: 0.5em;
+}
+.content .content3 {
+  display: flex;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+.content .content3 .content3-info {
+  margin-top: 1.5em;
+}
+.content .content3 .content3-info h2 {
+  font-size: 1.75rem;
+  color: #EF233C;
+  margin-bottom: 0.25em;
+  text-decoration: underline;
+  font-family: rubik mono one;
+}
+.content .content3 .content3-info p {
+  color: #2B2D42;
+  font-size: 1.1rem;
+  font-family: rubik;
+}
+.content .content3 .fa-folder-open {
+  color: #EF233C;
+  margin-top: 0.4em;
+}
+.content .content4 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+.content .content4 .content4-info {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.content .content4 .content4-info h2 {
+  font-size: 1.75rem;
+  color: #EF233C;
+  margin-bottom: 0.25em;
+  text-decoration: underline;
+  font-family: rubik mono one;
+  text-align: right;
+}
+.content .content4 .content4-info p {
+  color: #2B2D42;
+  font-size: 1.1rem;
+  font-family: rubik;
+}
+.content .content4 .fa-clock-o {
+  color: #EF233C;
+  margin-top: 0.4em;
+  margin-right: 0.5em;
 }
