@@ -235,7 +235,8 @@ header .dropdown-menu .hidden {
   cursor: pointer;
 }
 .cta button:hover {
-  color: #EF233C;
+  color: #EDF2F4;
+  background-color: #EF233C;
 }
 .cta button:focus {
   outline: 0;
