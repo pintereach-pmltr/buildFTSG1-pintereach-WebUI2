@@ -11,6 +11,10 @@
         margin-bottom: .5em;
         font-family: rubik mono one;
         font-size: 2.5rem;
+
+        @media @phone {
+            text-align: center;
+        }
     }
 
     .fa-laptop {
@@ -49,6 +53,10 @@
         margin-left: auto;
         align-items: center;
 
+        @media @phone {
+            flex-direction: column;
+        }
+
         .content1-info {
             margin-top: 1.5em;
             h2 {
@@ -57,12 +65,21 @@
                 margin-bottom:.25em;
                 text-decoration: underline;
                 font-family: rubik mono one;
+
+                @media @phone {
+                    text-align: center;
+                }
             }
 
             p {
                 color: @primary-color;
                 font-size: 1.1rem;
                 font-family: rubik;
+
+
+                @media @phone {
+                    text-align: center;
+                }
             }
         }
 
@@ -80,6 +97,10 @@
         margin-left: auto;
         align-items: center;
 
+        @media @phone {
+            flex-direction: column;
+        }
+
         .content2-info {
             margin-top: 1.5em;
             h2 {
@@ -89,12 +110,20 @@
                 text-decoration: underline;
                 font-family: rubik mono one;
                 text-align: right;
+
+                @media @phone {
+                    text-align: center;
+                }
             }
 
             p {
                 color: @primary-color;
                 font-size: 1.1rem;
                 font-family: rubik;
+
+                @media @phone {
+                    text-align: center;
+                }
             }
         }
 
@@ -102,6 +131,10 @@
             color: @primary-color;
             margin-top: .4em;
             margin-right: .5em;
+
+            @media @phone {
+                margin-right: 0;
+            }
         }
     }
 
@@ -112,6 +145,10 @@
         margin-left: auto;
         align-items: center;
 
+        @media @phone {
+            flex-direction: column;
+        }
+
         .content3-info {
             margin-top: 1.5em;
             h2 {
@@ -120,12 +157,20 @@
                 margin-bottom:.25em;
                 text-decoration: underline;
                 font-family: rubik mono one;
+
+                @media @phone {
+                    text-align: center;
+                }
             }
 
             p {
                 color: @primary-color;
                 font-size: 1.1rem;
                 font-family: rubik;
+
+                @media @phone {
+                    text-align: center;
+                }
             }
         }
 
@@ -143,9 +188,17 @@
         margin-left: auto;
         align-items: center;
 
+        @media @phone {
+            flex-direction: column;
+        }
+
         .content4-info {
             margin-top: 1.5em;
             margin-bottom: 3em;
+
+            @media @phone {
+                margin-bottom: 2.6em;
+            }
             h2 {
                 font-size: 1.75rem;
                 color: @highlight-color;
@@ -153,12 +206,20 @@
                 text-decoration: underline;
                 font-family: rubik mono one;
                 text-align: right;
+
+                @media @phone {
+                    text-align: center;
+                }
             }
 
             p {
                 color: @primary-color;
                 font-size: 1.1rem;
                 font-family: rubik;
+
+                @media @phone {
+                    text-align: center;
+                }
             }
         }
 
@@ -167,6 +228,11 @@
             margin-top: .4em;
             margin-right: .5em;
             margin-bottom: .5em;
+
+            @media @phone {
+                margin-right: 0;
+                margin-top: 0;
+            }
         }
     }
 }
