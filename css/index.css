@@ -168,6 +168,9 @@ header .dropdown-menu .dropdown-button:hover {
   border: 3px solid #2B2D42;
   color: #EF233C;
 }
+header .dropdown-menu .dropdown-button:focus {
+  outline: 0;
+}
 header .dropdown-menu .dropdown-content {
   width: 100%;
   position: absolute;
@@ -222,6 +225,9 @@ header .dropdown-menu .hidden {
 }
 .cta button:hover {
   color: #EF233C;
+}
+.cta button:focus {
+  outline: 0;
 }
 .content {
   border-top: 3px solid #EF233C;
