@@ -192,6 +192,7 @@ header .dropdown-menu .hidden {
   display: none;
 }
 .cta {
+  border-top: 3px solid #EDF2F4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,6 +224,7 @@ header .dropdown-menu .hidden {
   color: #EF233C;
 }
 .content {
+  border-top: 3px solid #EF233C;
   background-color: #EDF2F4;
 }
 .content .content1 {
@@ -248,7 +250,7 @@ header .dropdown-menu .hidden {
   font-family: rubik;
 }
 .content .content1 .fa-desktop {
-  color: #EF233C;
+  color: #2B2D42;
   margin-top: 0.25em;
 }
 .content .content2 {
@@ -276,7 +278,7 @@ header .dropdown-menu .hidden {
   font-family: rubik;
 }
 .content .content2 .fa-clock-o {
-  color: #EF233C;
+  color: #2B2D42;
   margin-top: 0.4em;
   margin-right: 0.5em;
 }
@@ -303,7 +305,7 @@ header .dropdown-menu .hidden {
   font-family: rubik;
 }
 .content .content3 .fa-folder-open {
-  color: #EF233C;
+  color: #2B2D42;
   margin-top: 0.4em;
 }
 .content .content4 {
@@ -316,7 +318,7 @@ header .dropdown-menu .hidden {
 }
 .content .content4 .content4-info {
   margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: 3em;
 }
 .content .content4 .content4-info h2 {
   font-size: 1.75rem;
@@ -331,8 +333,19 @@ header .dropdown-menu .hidden {
   font-size: 1.1rem;
   font-family: rubik;
 }
-.content .content4 .fa-clock-o {
-  color: #EF233C;
+.content .content4 .fa-book {
+  color: #2B2D42;
   margin-top: 0.4em;
   margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+footer {
+  padding: 15 0px;
+  background-color: #EF233C;
+  border-top: 3px solid #2B2D42;
+}
+footer p {
+  text-align: center;
+  color: #EDF2F4;
+  font-family: rubik;
 }

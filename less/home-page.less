@@ -1,4 +1,5 @@
 .cta {
+    border-top: 3px solid @text-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,6 +36,7 @@
 }
 
 .content {
+    border-top: 3px solid @highlight-color;
     background-color: @text-color;
     .content1 {
         display: flex;
@@ -61,7 +63,7 @@
         }
 
         .fa-desktop {
-            color: @highlight-color;
+            color: @primary-color;
             margin-top: .25em;
         }
     }
@@ -93,7 +95,7 @@
         }
 
         .fa-clock-o {
-            color: @highlight-color;
+            color: @primary-color;
             margin-top: .4em;
             margin-right: .5em;
         }
@@ -124,7 +126,7 @@
         }
 
         .fa-folder-open {
-            color: @highlight-color;
+            color: @primary-color;
             margin-top: .4em;
         }
     }
@@ -139,7 +141,7 @@
 
         .content4-info {
             margin-top: 1.5em;
-            margin-bottom: 1.5em;
+            margin-bottom: 3em;
             h2 {
                 font-size: 1.75rem;
                 color: @highlight-color;
@@ -156,10 +158,23 @@
             }
         }
 
-        .fa-clock-o {
-            color: @highlight-color;
+        .fa-book {
+            color: @primary-color;
             margin-top: .4em;
             margin-right: .5em;
+            margin-bottom: .5em;
         }
+    }
+}
+
+footer {
+    padding: 15 0px;
+    background-color: @highlight-color;
+    border-top: 3px solid @primary-color;
+
+    p {
+        text-align: center;
+        color: @text-color;
+        font-family: rubik;
     }
 }
