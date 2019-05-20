@@ -1,0 +1,50 @@
+header {
+
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: @highlight-color;
+
+    .logo {
+        display: flex;
+        
+        .fa-bookmark {
+            color: @primary-color;
+        }
+
+        h1{
+            color: @primary-color;
+        }
+
+        align-items: center;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        .dropdown-button {
+            padding: 15px;
+            border: 3px solid @text-color;
+            color: @text-color;
+            font-size: 1.5rem;
+            cursor: pointer;
+            font-family: rubik mono one;
+
+            &:hover {
+                background-color: @text-color;
+                border: 3px solid @primary-color;
+                color: @highlight-color;
+            }
+        }
+
+        .dropdown-content {
+            width: 100%;
+            position: absolute;
+            background-color: @highlight-color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid @primary-color;
+        }
+    }
+}
