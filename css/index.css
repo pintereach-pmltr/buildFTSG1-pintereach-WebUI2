@@ -195,6 +195,12 @@ header .dropdown-menu .dropdown-link:hover {
 header .dropdown-menu .hidden {
   display: none;
 }
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    height: 150px;
+  }
+}
 @media (max-width: 500px) {
   header {
     flex-direction: column;
@@ -214,6 +220,11 @@ header .dropdown-menu .hidden {
   font-family: rubik;
   font-weight: bold;
   font-size: 3rem;
+}
+@media (max-width: 800px) {
+  .cta h2 {
+    text-align: center;
+  }
 }
 @media (max-width: 500px) {
   .cta h2 {
