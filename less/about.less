@@ -1,0 +1,44 @@
+.about {
+    background-color: #8D99AE;
+}
+.meet {
+    margin-top: .25em;
+    margin-bottom: .5em;
+    text-align: center;
+    font-size: 4rem;
+    font-family: rubik;
+    font-weight: bold;
+}
+
+.accordion {
+    background-color: @text-color;
+    color: @primary-color;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 2rem;
+    font-family: rubik;
+    display: block;
+    margin: 0 auto .5em auto;
+
+    &:hover {
+        background-color: @primary-color;
+        color: @text-color;
+    }
+
+    .active {
+        background-color: @primary-color;
+        color: @text-color;
+    }
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: @text-color;
+    display: none;
+    overflow: hidden;
+}
