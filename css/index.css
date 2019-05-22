@@ -152,6 +152,17 @@ header .logo h1 {
   font-size: 2rem;
   font-family: rubik mono one;
 }
+@media (max-width: 500px) {
+  header .logo h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  header .logo {
+    flex-direction: column-reverse;
+    padding-top: 0.25em;
+  }
+}
 header .dropdown-menu {
   position: relative;
   margin-right: 0.25em;
@@ -244,6 +255,7 @@ header .dropdown-menu .hidden {
   font-family: rubik;
   font-weight: bold;
   font-size: 3.5rem;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .cta h2 {
@@ -253,6 +265,7 @@ header .dropdown-menu .hidden {
 @media (max-width: 500px) {
   .cta h2 {
     text-align: center;
+    font-size: 2.2rem;
   }
 }
 .cta .fa-laptop {
@@ -500,6 +513,12 @@ span {
   font-weight: bold;
   color: #2B2D42;
 }
+@media (max-width: 500px) {
+  .meet {
+    font-size: 2.5rem;
+    padding-top: 0.5em;
+  }
+}
 .meet-subtitle {
   text-align: center;
   font-family: rubik;
@@ -507,6 +526,20 @@ span {
   font-weight: bolder;
   margin-bottom: 0.75em;
   color: #EDF2F4;
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 500px) {
+  .meet-subtitle {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .meet-subtitle {
+    font-size: 2rem;
+  }
 }
 .about-body {
   display: flex;
@@ -593,6 +626,12 @@ span {
   width: 300px;
   height: 350px;
 }
+@media (max-width: 500px) {
+  .panel img {
+    width: 150px;
+    height: 175px;
+  }
+}
 .panel h2 {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
@@ -618,6 +657,11 @@ span {
   font-size: 3rem;
   color: #2B2D42;
   padding-bottom: 0.5em;
+}
+@media (max-width: 500px) {
+  .mission-statement p {
+    font-size: 2rem;
+  }
 }
 .mission-statement span {
   color: #EF233C;
