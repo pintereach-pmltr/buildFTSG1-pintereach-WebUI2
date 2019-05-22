@@ -20,19 +20,36 @@
     color: @text-color;
 }
 
+.about-body {
+    display: flex;
+    justify-content: space-around; 
+
+    @media @phone {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.team {
+    width: 45%;
+
+    @media @phone {
+        width: 95%;
+    }
+}
+
 .accordion {
     background-color: @text-color;
     color: @primary-color;
     cursor: pointer;
     padding: 18px;
-    width: 80%;
     text-align: center;
+    width: 100%;
     border: none;
     outline: none;
     transition: 0.4s;
     font-size: 2rem;
     font-family: rubik;
-    display: block;
     margin: .5em auto 0 auto;
 
     &:hover {
@@ -51,9 +68,6 @@
     display: none;
     overflow: hidden;
     border: 2px solid @primary-color;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
 
     img {
@@ -88,4 +102,31 @@
 
 .team {
     padding-bottom: 1em;
+}
+
+.mission-statement {
+    width: 45%;
+    margin-top: .5em;
+    padding-bottom: .5em;
+
+    p {
+        font-family: rubik;
+        font-size: 3rem;
+        color: @primary-color;
+        padding-bottom: .5em;
+    }
+
+    span {
+        color: @highlight-color;
+        font-weight: bold;
+    }
+
+    @media @phone {
+        width: 95%;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+    }
 }
