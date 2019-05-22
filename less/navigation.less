@@ -46,6 +46,10 @@ header {
             &:focus {
                 outline: 0;
             }
+
+            @media @phone {
+                width: 100%;
+            }
         }
 
         .dropdown-content {
@@ -74,6 +78,11 @@ header {
 
         .hidden {
             display: none;
+        }
+
+        @media @phone {
+            width: 100%;
+            margin-right: 0;
         }
     }
 
