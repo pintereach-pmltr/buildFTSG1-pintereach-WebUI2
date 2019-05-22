@@ -489,7 +489,7 @@ footer p {
   }
 }
 .team {
-  width: 45%;
+  width: 40%;
 }
 @media (max-width: 500px) {
   .team {
@@ -587,4 +587,9 @@ footer p {
 }
 .mission-statement img {
   width: 100%;
+}
+@media (max-width: 500px) {
+  .mission-statement img {
+    display: none;
+  }
 }
