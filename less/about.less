@@ -51,6 +51,11 @@
     font-size: 2rem;
     font-family: rubik;
     margin: .5em auto 0 auto;
+    box-shadow: 10px -5px 5px @primary-color;
+
+    @media @phone {
+        box-shadow: 0 -5px 5px @primary-color;
+    }
 
     &:hover {
         background-color: @primary-color;
@@ -58,7 +63,7 @@
     }
 }
 .active {
-    background-color: @primary-color;
+    background-color: @highlight-color;
     color: @text-color;
 }
 
@@ -69,6 +74,11 @@
     overflow: hidden;
     border: 2px solid @primary-color;
     text-align: center;
+    box-shadow: 10px 5px 5px @primary-color;
+
+    @media @phone {
+        box-shadow: 0 5px 5px @primary-color;
+    }
 
     img {
         padding-top: .5em;

@@ -163,6 +163,7 @@ header .dropdown-menu .dropdown-button {
   font-size: 1.5rem;
   cursor: pointer;
   font-family: rubik mono one;
+  box-shadow: -10px 5px 5px #2B2D42;
 }
 header .dropdown-menu .dropdown-button:hover {
   background-color: #EDF2F4;
@@ -180,6 +181,7 @@ header .dropdown-menu .dropdown-content {
   flex-direction: column;
   align-items: center;
   border: 2px solid #2B2D42;
+  box-shadow: -10px 5px 5px #2B2D42;
 }
 header .dropdown-menu .dropdown-link {
   width: 100%;
@@ -245,6 +247,7 @@ header .dropdown-menu .hidden {
   border-radius: 10px;
   margin-bottom: 0.5em;
   cursor: pointer;
+  box-shadow: 10px 5px 5px #2B2D42;
 }
 .cta button:hover {
   color: #EDF2F4;
@@ -506,13 +509,19 @@ footer p {
   font-size: 2rem;
   font-family: rubik;
   margin: 0.5em auto 0 auto;
+  box-shadow: 10px -5px 5px #2B2D42;
+}
+@media (max-width: 500px) {
+  .accordion {
+    box-shadow: 0 -5px 5px #2B2D42;
+  }
 }
 .accordion:hover {
   background-color: #2B2D42;
   color: #EDF2F4;
 }
 .active {
-  background-color: #2B2D42;
+  background-color: #EF233C;
   color: #EDF2F4;
 }
 .panel {
@@ -522,6 +531,12 @@ footer p {
   overflow: hidden;
   border: 2px solid #2B2D42;
   text-align: center;
+  box-shadow: 10px 5px 5px #2B2D42;
+}
+@media (max-width: 500px) {
+  .panel {
+    box-shadow: 0 5px 5px #2B2D42;
+  }
 }
 .panel img {
   padding-top: 0.5em;
