@@ -1,0 +1,144 @@
+.about {
+    background-color: #8D99AE;
+}
+.meet {
+    margin-top: .25em;
+    margin-bottom: .5em;
+    text-align: center;
+    font-size: 4rem;
+    font-family: rubik;
+    font-weight: bold;
+    color: @primary-color;
+}
+
+.meet-subtitle {
+    text-align: center;
+    font-family: rubik;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: .75em;
+    color: @text-color;
+}
+
+.about-body {
+    display: flex;
+    justify-content: space-around; 
+
+    @media @phone {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.team {
+    width: 40%;
+
+    @media @phone {
+        width: 95%;
+    }
+}
+
+.accordion {
+    background-color: @text-color;
+    color: @primary-color;
+    cursor: pointer;
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 2rem;
+    font-family: rubik;
+    margin: .5em auto 0 auto;
+    box-shadow: 10px -5px 5px @primary-color;
+
+    @media @phone {
+        box-shadow: 0 -5px 5px @primary-color;
+    }
+
+    &:hover {
+        background-color: @primary-color;
+        color: @text-color;
+    }
+}
+.active {
+    background-color: @highlight-color;
+    color: @text-color;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: @text-color;
+    display: none;
+    overflow: hidden;
+    border: 2px solid @primary-color;
+    text-align: center;
+    box-shadow: 10px 5px 5px @primary-color;
+
+    @media @phone {
+        box-shadow: 0 5px 5px @primary-color;
+    }
+
+    img {
+        padding-top: .5em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 300px;
+        height: 350px;
+    }
+
+    h2 {
+        padding-top: .25em;
+        padding-bottom: .25em;
+        font-size: 1.5rem;
+        font-family: rubik;
+        font-weight: bold;
+        color: @primary-color;
+    }
+
+    p {
+        font-family: rubik;
+        color: @primary-color;
+    }
+
+    .fa-github {
+        color: @primary-color;
+    }
+}
+
+.team {
+    padding-bottom: 1em;
+}
+
+.mission-statement {
+    width: 45%;
+    margin-top: .5em;
+    padding-bottom: .5em;
+
+    p {
+        font-family: rubik;
+        font-size: 3rem;
+        color: @primary-color;
+        padding-bottom: .5em;
+    }
+
+    span {
+        color: @highlight-color;
+        font-weight: bold;
+    }
+
+    @media @phone {
+        width: 95%;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+
+        @media @phone {
+            display: none;
+        }
+    }
+}
