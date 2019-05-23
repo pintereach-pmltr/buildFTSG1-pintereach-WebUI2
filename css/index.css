@@ -152,6 +152,17 @@ header .logo h1 {
   font-size: 2rem;
   font-family: rubik mono one;
 }
+@media (max-width: 500px) {
+  header .logo h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  header .logo {
+    flex-direction: column-reverse;
+    padding-top: 0.25em;
+  }
+}
 header .dropdown-menu {
   position: relative;
   margin-right: 0.25em;
@@ -174,6 +185,11 @@ header .dropdown-menu .dropdown-button:focus {
   outline: 0;
 }
 @media (max-width: 500px) {
+  header .dropdown-menu .dropdown-button {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
   header .dropdown-menu .dropdown-button {
     width: 100%;
   }
@@ -209,6 +225,12 @@ header .dropdown-menu .hidden {
   }
 }
 @media (max-width: 800px) {
+  header .dropdown-menu {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
   header {
     flex-direction: column;
     height: 150px;
@@ -228,11 +250,12 @@ header .dropdown-menu .hidden {
 }
 .cta h2 {
   color: #2B2D42;
-  margin-top: 1.2em;
+  margin-top: 0.75em;
   margin-bottom: 0.5em;
   font-family: rubik;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .cta h2 {
@@ -242,6 +265,7 @@ header .dropdown-menu .hidden {
 @media (max-width: 500px) {
   .cta h2 {
     text-align: center;
+    font-size: 2.2rem;
   }
 }
 .cta .fa-laptop {
@@ -302,6 +326,7 @@ header .dropdown-menu .hidden {
   color: #2B2D42;
   font-size: 1.3rem;
   font-family: rubik;
+  line-height: 1.2;
 }
 @media (max-width: 500px) {
   .content .content1 .content1-info p {
@@ -345,6 +370,7 @@ header .dropdown-menu .hidden {
   color: #2B2D42;
   font-size: 1.3rem;
   font-family: rubik;
+  line-height: 1.2;
 }
 @media (max-width: 500px) {
   .content .content2 .content2-info p {
@@ -392,6 +418,7 @@ header .dropdown-menu .hidden {
   color: #2B2D42;
   font-size: 1.3rem;
   font-family: rubik;
+  line-height: 1.2;
 }
 @media (max-width: 500px) {
   .content .content3 .content3-info p {
@@ -441,6 +468,7 @@ header .dropdown-menu .hidden {
   color: #2B2D42;
   font-size: 1.3rem;
   font-family: rubik;
+  line-height: 1.2;
 }
 @media (max-width: 500px) {
   .content .content4 .content4-info p {
@@ -485,6 +513,12 @@ span {
   font-weight: bold;
   color: #2B2D42;
 }
+@media (max-width: 500px) {
+  .meet {
+    font-size: 2.5rem;
+    padding-top: 0.5em;
+  }
+}
 .meet-subtitle {
   text-align: center;
   font-family: rubik;
@@ -492,6 +526,20 @@ span {
   font-weight: bolder;
   margin-bottom: 0.75em;
   color: #EDF2F4;
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 500px) {
+  .meet-subtitle {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .meet-subtitle {
+    font-size: 2rem;
+  }
 }
 .about-body {
   display: flex;
@@ -503,10 +551,22 @@ span {
     align-items: center;
   }
 }
+@media (max-width: 800px) {
+  .about-body {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .team {
   width: 40%;
+  padding-bottom: 1em;
 }
 @media (max-width: 500px) {
+  .team {
+    width: 95%;
+  }
+}
+@media (max-width: 800px) {
   .team {
     width: 95%;
   }
@@ -527,6 +587,11 @@ span {
   box-shadow: 10px -5px 5px #2B2D42;
 }
 @media (max-width: 500px) {
+  .accordion {
+    box-shadow: 0 -5px 5px #2B2D42;
+  }
+}
+@media (max-width: 800px) {
   .accordion {
     box-shadow: 0 -5px 5px #2B2D42;
   }
@@ -561,6 +626,12 @@ span {
   width: 300px;
   height: 350px;
 }
+@media (max-width: 500px) {
+  .panel img {
+    width: 150px;
+    height: 175px;
+  }
+}
 .panel h2 {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
@@ -576,9 +647,6 @@ span {
 .panel .fa-github {
   color: #2B2D42;
 }
-.team {
-  padding-bottom: 1em;
-}
 .mission-statement {
   width: 45%;
   margin-top: 0.5em;
@@ -590,11 +658,22 @@ span {
   color: #2B2D42;
   padding-bottom: 0.5em;
 }
+@media (max-width: 500px) {
+  .mission-statement p {
+    font-size: 2rem;
+  }
+}
 .mission-statement span {
   color: #EF233C;
   font-weight: bold;
 }
 @media (max-width: 500px) {
+  .mission-statement {
+    width: 95%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
   .mission-statement {
     width: 95%;
     text-align: center;

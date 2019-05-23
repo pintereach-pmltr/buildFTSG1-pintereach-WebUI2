@@ -20,9 +20,18 @@ header {
             color: @primary-color;
             font-size: 2rem;
             font-family: rubik mono one;
+
+            @media @phone {
+                font-size: 1.5rem;
+            }
         }
 
         align-items: center;
+
+        @media @phone {
+            flex-direction: column-reverse;
+            padding-top: .25em;
+        }
     }
 
     .dropdown-menu {
@@ -48,6 +57,10 @@ header {
             }
 
             @media @phone {
+                width: 100%;
+            }
+            
+            @media @tablet {
                 width: 100%;
             }
         }
@@ -81,6 +94,11 @@ header {
         }
 
         @media @phone {
+            width: 100%;
+            margin-right: 0;
+        }
+
+        @media @tablet {
             width: 100%;
             margin-right: 0;
         }
