@@ -136,8 +136,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #EF233C;
-  border-bottom: 3px solid #EDF2F4;
+  background-color: #2A2D41;
+  border-bottom: 3px solid #FFFFFF;
 }
 header .logo {
   display: flex;
@@ -145,10 +145,10 @@ header .logo {
   align-items: center;
 }
 header .logo .fa-bookmark {
-  color: #2B2D42;
+  color: #FCFDFD;
 }
 header .logo h1 {
-  color: #2B2D42;
+  color: #FCFDFD;
   font-size: 2rem;
   font-family: rubik mono one;
 }
@@ -169,17 +169,17 @@ header .dropdown-menu {
 }
 header .dropdown-menu .dropdown-button {
   padding: 15px;
-  border: 3px solid #2B2D42;
-  color: #2B2D42;
+  border: 3px solid #FCFDFD;
+  color: #DCEEFF;
   font-size: 1.5rem;
   cursor: pointer;
   font-family: rubik mono one;
-  box-shadow: -10px 5px 5px #2B2D42;
+  background-color: #1D8FFF;
 }
 header .dropdown-menu .dropdown-button:hover {
-  background-color: #EDF2F4;
-  border: 3px solid #2B2D42;
-  color: #EF233C;
+  background-color: #FFFFFF;
+  border: 3px solid #1D8FFF;
+  color: #1D8FFF;
 }
 header .dropdown-menu .dropdown-button:focus {
   outline: 0;
@@ -197,12 +197,11 @@ header .dropdown-menu .dropdown-button:focus {
 header .dropdown-menu .dropdown-content {
   width: 100%;
   position: absolute;
-  background-color: #EF233C;
+  background-color: #1D8FFF;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid #2B2D42;
-  box-shadow: -10px 5px 5px #2B2D42;
+  border: 2px solid #FCFDFD;
 }
 header .dropdown-menu .dropdown-link {
   width: 100%;
@@ -210,10 +209,10 @@ header .dropdown-menu .dropdown-link {
   padding: 15px 0;
   font-size: 1.25rem;
   text-decoration: none;
-  color: #EDF2F4;
+  color: #DCEEFF;
 }
 header .dropdown-menu .dropdown-link:hover {
-  color: #8D99AE;
+  color: #2A2D41;
 }
 header .dropdown-menu .hidden {
   display: none;
@@ -246,10 +245,10 @@ header .dropdown-menu .hidden {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #8D99AE;
+  background-color: #FCFDFD;
 }
 .cta h2 {
-  color: #2B2D42;
+  color: #2A2D41;
   margin-top: 0.75em;
   margin-bottom: 0.5em;
   font-family: rubik;
@@ -270,14 +269,14 @@ header .dropdown-menu .hidden {
 }
 .cta .fa-laptop {
   margin-bottom: 0.25em;
-  color: #2B2D42;
+  color: #2A2D41;
 }
 .cta button {
   font-family: rubik;
   font-size: 1.5rem;
-  color: #2B2D42;
-  background-color: #EDF2F4;
-  border: 3px solid #2B2D42;
+  color: #DCEEFF;
+  background-color: #1D8FFF;
+  border: 3px solid #2A2D41;
   padding: 5 15px;
   border-radius: 10px;
   margin-bottom: 0.5em;
@@ -285,15 +284,15 @@ header .dropdown-menu .hidden {
   box-shadow: 10px 5px 5px #2B2D42;
 }
 .cta button:hover {
-  color: #EDF2F4;
-  background-color: #EF233C;
+  color: #1D8FFF;
+  background-color: #DCEEFF;
 }
 .cta button:focus {
   outline: 0;
 }
 .content {
-  border-top: 3px solid #EF233C;
-  background-color: #EDF2F4;
+  border-top: 3px solid #2A2D41;
+  background-color: #2A2D41;
 }
 .content .content1 {
   display: flex;
@@ -312,7 +311,7 @@ header .dropdown-menu .hidden {
 }
 .content .content1 .content1-info h2 {
   font-size: 1.75rem;
-  color: #EF233C;
+  color: #FFFFFF;
   margin-bottom: 0.25em;
   text-decoration: underline;
   font-family: rubik mono one;
@@ -323,7 +322,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content1 .content1-info p {
-  color: #2B2D42;
+  color: #FFFFFF;
   font-size: 1.3rem;
   font-family: rubik;
   line-height: 1.2;
@@ -334,7 +333,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content1 .fa-desktop {
-  color: #2B2D42;
+  color: #FFFFFF;
   margin-top: 0.25em;
 }
 .content .content2 {
@@ -355,7 +354,7 @@ header .dropdown-menu .hidden {
 }
 .content .content2 .content2-info h2 {
   font-size: 1.75rem;
-  color: #EF233C;
+  color: #FFFFFF;
   margin-bottom: 0.25em;
   text-decoration: underline;
   font-family: rubik mono one;
@@ -367,7 +366,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content2 .content2-info p {
-  color: #2B2D42;
+  color: #FFFFFF;
   font-size: 1.3rem;
   font-family: rubik;
   line-height: 1.2;
@@ -378,7 +377,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content2 .fa-clock-o {
-  color: #2B2D42;
+  color: #FFFFFF;
   margin-top: 0.4em;
   margin-right: 0.5em;
 }
@@ -404,7 +403,7 @@ header .dropdown-menu .hidden {
 }
 .content .content3 .content3-info h2 {
   font-size: 1.75rem;
-  color: #EF233C;
+  color: #FFFFFF;
   margin-bottom: 0.25em;
   text-decoration: underline;
   font-family: rubik mono one;
@@ -415,7 +414,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content3 .content3-info p {
-  color: #2B2D42;
+  color: #FFFFFF;
   font-size: 1.3rem;
   font-family: rubik;
   line-height: 1.2;
@@ -426,7 +425,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content3 .fa-folder-open {
-  color: #2B2D42;
+  color: #FFFFFF;
   margin-top: 0.4em;
 }
 .content .content4 {
@@ -453,7 +452,7 @@ header .dropdown-menu .hidden {
 }
 .content .content4 .content4-info h2 {
   font-size: 1.75rem;
-  color: #EF233C;
+  color: #FFFFFF;
   margin-bottom: 0.25em;
   text-decoration: underline;
   font-family: rubik mono one;
@@ -465,7 +464,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content4 .content4-info p {
-  color: #2B2D42;
+  color: #FFFFFF;
   font-size: 1.3rem;
   font-family: rubik;
   line-height: 1.2;
@@ -476,7 +475,7 @@ header .dropdown-menu .hidden {
   }
 }
 .content .content4 .fa-book {
-  color: #2B2D42;
+  color: #FFFFFF;
   margin-top: 0.4em;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
@@ -489,20 +488,20 @@ header .dropdown-menu .hidden {
 }
 footer {
   padding: 15 0px;
-  background-color: #EF233C;
-  border-top: 3px solid #2B2D42;
+  background-color: #FCFDFD;
+  border-top: 3px solid #DCEEFF;
 }
 footer p {
   text-align: center;
-  color: #EDF2F4;
+  color: #2A2D41;
   font-family: rubik;
 }
 span {
-  color: #EF233C;
+  color: #1D8FFF;
   font-weight: bolder;
 }
 .about {
-  background-color: #8D99AE;
+  background-color: #EDF2F4;
 }
 .meet {
   margin-top: 0.25em;
@@ -511,7 +510,7 @@ span {
   font-size: 4rem;
   font-family: rubik;
   font-weight: bold;
-  color: #2B2D42;
+  color: #2A2D41;
 }
 @media (max-width: 500px) {
   .meet {
@@ -525,7 +524,7 @@ span {
   font-size: 2.5rem;
   font-weight: bolder;
   margin-bottom: 0.75em;
-  color: #EDF2F4;
+  color: #2A2D41;
   width: 95%;
   display: block;
   margin-right: auto;
@@ -572,8 +571,8 @@ span {
   }
 }
 .accordion {
-  background-color: #EDF2F4;
-  color: #2B2D42;
+  background-color: #1D8FFF;
+  color: #DCEEFF;
   cursor: pointer;
   padding: 18px;
   text-align: center;
@@ -584,39 +583,22 @@ span {
   font-size: 2rem;
   font-family: rubik;
   margin: 0.5em auto 0 auto;
-  box-shadow: 10px -5px 5px #2B2D42;
-}
-@media (max-width: 500px) {
-  .accordion {
-    box-shadow: 0 -5px 5px #2B2D42;
-  }
-}
-@media (max-width: 800px) {
-  .accordion {
-    box-shadow: 0 -5px 5px #2B2D42;
-  }
 }
 .accordion:hover {
-  background-color: #2B2D42;
-  color: #EDF2F4;
+  background-color: #2A2D41;
+  color: #FFFFFF;
 }
 .active {
-  background-color: #EF233C;
-  color: #EDF2F4;
+  background-color: #2A2D41;
+  color: #FFFFFF;
 }
 .panel {
   padding: 0 18px;
-  background-color: #EDF2F4;
+  background-color: #2A2D41;
   display: none;
   overflow: hidden;
-  border: 2px solid #2B2D42;
+  border-top: 2px solid #FFFFFF;
   text-align: center;
-  box-shadow: 10px 5px 5px #2B2D42;
-}
-@media (max-width: 500px) {
-  .panel {
-    box-shadow: 0 5px 5px #2B2D42;
-  }
 }
 .panel img {
   padding-top: 0.5em;
@@ -638,14 +620,14 @@ span {
   font-size: 1.5rem;
   font-family: rubik;
   font-weight: bold;
-  color: #2B2D42;
+  color: #FFFFFF;
 }
 .panel p {
   font-family: rubik;
-  color: #2B2D42;
+  color: #FFFFFF;
 }
 .panel .fa-github {
-  color: #2B2D42;
+  color: #FFFFFF;
 }
 .mission-statement {
   width: 45%;
@@ -655,7 +637,7 @@ span {
 .mission-statement p {
   font-family: rubik;
   font-size: 3rem;
-  color: #2B2D42;
+  color: #2A2D41;
   padding-bottom: 0.5em;
 }
 @media (max-width: 500px) {
@@ -664,8 +646,9 @@ span {
   }
 }
 .mission-statement span {
-  color: #EF233C;
-  font-weight: bold;
+  color: #2A2D41;
+  font-weight: bolder;
+  text-decoration: underline solid #2A2D41;
 }
 @media (max-width: 500px) {
   .mission-statement {

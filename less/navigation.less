@@ -5,19 +5,19 @@ header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: @highlight-color;
-    border-bottom: 3px solid @text-color;
+    background-color: @primary-color2;
+    border-bottom: 3px solid @text-color2;
 
     .logo {
         display: flex;
         margin-left: .25em;
         
         .fa-bookmark {
-            color: @primary-color;
+            color: @highlight-color2;
         }
 
         h1{
-            color: @primary-color;
+            color: @highlight-color2;
             font-size: 2rem;
             font-family: rubik mono one;
 
@@ -39,17 +39,18 @@ header {
         margin-right: .25em;
         .dropdown-button {
             padding: 15px;
-            border: 3px solid @primary-color;
-            color: @primary-color;
+            border: 3px solid @highlight-color2;
+            color: @button-text;
             font-size: 1.5rem;
             cursor: pointer;
             font-family: rubik mono one;
-            box-shadow: -10px 5px 5px @primary-color;
+            // box-shadow: -10px 5px 5px @highlight-color2;
+            background-color: @button;
 
             &:hover {
-                background-color: @text-color;
-                border: 3px solid @primary-color;
-                color: @highlight-color;
+                background-color: @text-color2;
+                border: 3px solid @button;
+                color: @button;
             }
 
             &:focus {
@@ -68,12 +69,12 @@ header {
         .dropdown-content {
             width: 100%;
             position: absolute;
-            background-color: @highlight-color;
+            background-color: @button;
             display: flex;
             flex-direction: column;
             align-items: center;
-            border: 2px solid @primary-color;
-            box-shadow: -10px 5px 5px @primary-color;
+            border: 2px solid @highlight-color2;
+            // box-shadow: -10px 5px 5px @highlight-color2;
         }
 
         .dropdown-link {
@@ -82,10 +83,10 @@ header {
             padding: 15px 0;
             font-size: 1.25rem;
             text-decoration: none;
-            color: @text-color;
+            color: @button-text;
 
             &:hover {
-                color: #8D99AE;
+                color: @primary-color2;
             }
         }
 

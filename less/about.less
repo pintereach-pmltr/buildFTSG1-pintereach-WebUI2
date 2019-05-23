@@ -1,5 +1,5 @@
 .about {
-    background-color: #8D99AE;
+    background-color: @text-color;
 }
 .meet {
     margin-top: .25em;
@@ -8,7 +8,7 @@
     font-size: 4rem;
     font-family: rubik;
     font-weight: bold;
-    color: @primary-color;
+    color: @primary-color2;
 
     @media @phone {
         font-size: 2.5rem;
@@ -22,7 +22,7 @@
     font-size: 2.5rem;
     font-weight: bolder;
     margin-bottom: .75em;
-    color: @text-color;
+    color: @primary-color2;
     width: 95%;
     display: block;
     margin-right: auto;
@@ -66,8 +66,8 @@
 }
 
 .accordion {
-    background-color: @text-color;
-    color: @primary-color;
+    background-color: @button;
+    color: @button-text;
     cursor: pointer;
     padding: 18px;
     text-align: center;
@@ -78,38 +78,24 @@
     font-size: 2rem;
     font-family: rubik;
     margin: .5em auto 0 auto;
-    box-shadow: 10px -5px 5px @primary-color;
-
-    @media @phone {
-        box-shadow: 0 -5px 5px @primary-color;
-    }
-
-    @media @tablet {
-        box-shadow: 0 -5px 5px @primary-color;
-    }
 
     &:hover {
-        background-color: @primary-color;
-        color: @text-color;
+        background-color: @primary-color2;
+        color: @text-color2;
     }
 }
 .active {
-    background-color: @highlight-color;
-    color: @text-color;
+    background-color: @primary-color2;
+    color: @text-color2;
 }
 
 .panel {
     padding: 0 18px;
-    background-color: @text-color;
+    background-color: @primary-color2;
     display: none;
     overflow: hidden;
-    border: 2px solid @primary-color;
+    border-top: 2px solid @text-color2;
     text-align: center;
-    box-shadow: 10px 5px 5px @primary-color;
-
-    @media @phone {
-        box-shadow: 0 5px 5px @primary-color;
-    }
 
     img {
         padding-top: .5em;
@@ -131,16 +117,16 @@
         font-size: 1.5rem;
         font-family: rubik;
         font-weight: bold;
-        color: @primary-color;
+        color: @text-color2;
     }
 
     p {
         font-family: rubik;
-        color: @primary-color;
+        color: @text-color2;
     }
 
     .fa-github {
-        color: @primary-color;
+        color: @text-color2;
     }
 }
 
@@ -152,7 +138,7 @@
     p {
         font-family: rubik;
         font-size: 3rem;
-        color: @primary-color;
+        color: @primary-color2;
         padding-bottom: .5em;
 
         @media @phone {
@@ -161,8 +147,9 @@
     }
 
     span {
-        color: @highlight-color;
-        font-weight: bold;
+        color: @primary-color2;
+        font-weight: bolder;
+        text-decoration: underline solid @primary-color2;
     }
 
     @media @phone {
